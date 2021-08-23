@@ -1,5 +1,10 @@
 # Don't try to do inline comments.  Things break.
 
+# Ignore ignoreme
+.ignoreme
+/.ignoreme
+/.ignoreme/**
+
 # Ignore secrets
 /.env
 /*.env

@@ -1,5 +1,5 @@
 {
-  "name" : "netlify-nextjs-test-02",
+  "name": "netlify-nextjs-test-02",
   "version": "0.0.2",
   "private": true,
   "scripts": {
@@ -9,8 +9,12 @@
     "build": "next build"
   },
   "dependencies": {
+    "glob": "latest",
+    "gray-matter": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "remark": "latest",
+    "remark-html": "latest"
   }
 }
