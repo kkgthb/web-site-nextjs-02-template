@@ -1,3 +1,5 @@
 .testingcss {
-  color: pink;
+  border-style: dashed;
+  border-color: pink;
+  border-width: 20px;
 }
