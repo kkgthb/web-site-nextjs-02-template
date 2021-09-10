@@ -1,7 +1,7 @@
 import path from "path";
 import { promises as fs } from "fs";
 
-const TokensFilePath = path.join(process.cwd(), ".ignoreme/tokens.json");
+const TokensFilePath = path.join(process.cwd(), "tempdir/tokens.json");
 
 export async function readTokenFromFile(tokenId) {
   let tokensFile = await fs.readFile(TokensFilePath);
