@@ -1,9 +1,9 @@
 ---
 template: AdvancedPage
 sections:
-  - type: SectionPink
+  - type: section_pink
     say: I did it!
-  - type: SectionTaskList
+  - type: section_task_list
     accomplishments:
       - task: eat
         done: true
@@ -19,6 +19,6 @@ sections:
       - task: hydrate
         done: true
         how: regularly
-  - type: SectionBlue
+  - type: section_blue
     mention: Hello World
 ---
